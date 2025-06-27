@@ -33,6 +33,8 @@ import connectDb from "./db/index.js";
 // agar mai ye likhta hoo to package json me add karna hoga "dev":"nodemon ke baad --require dotenv/config  "
 import dotenv from 'dotenv';
 dotenv.config({path:'./.env'});
+import { app } from "./app.js";
+import express from "express";
 
 // import dotenv from 'dotenv';
 // dotenv.config({ path: './.env' });
